@@ -1,4 +1,7 @@
 defmodule PullifyWeb.ErrorHTML do
+  @moduledoc """
+  A component to define error pages for your application.
+  """
   use PullifyWeb, :html
 
   # If you want to customize your error pages,

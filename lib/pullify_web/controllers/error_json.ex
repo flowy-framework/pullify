@@ -1,4 +1,7 @@
 defmodule PullifyWeb.ErrorJSON do
+  @moduledoc """
+  A component to define error pages for your application.
+  """
   # If you want to customize a particular status code,
   # you may add your own clauses, such as:
   #
