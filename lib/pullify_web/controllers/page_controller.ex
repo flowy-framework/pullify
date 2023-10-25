@@ -1,4 +1,7 @@
 defmodule PullifyWeb.PageController do
+  @moduledoc """
+  A component to define pages for your application.
+  """
   use PullifyWeb, :controller
 
   def home(conn, _params) do

@@ -1,4 +1,7 @@
 defmodule PullifyWeb.Telemetry do
+  @moduledoc """
+  Telemetry metrics and reporting.
+  """
   use Supervisor
   import Telemetry.Metrics
 
@@ -19,6 +22,7 @@ defmodule PullifyWeb.Telemetry do
     Supervisor.init(children, strategy: :one_for_one)
   end
 
+  @spec metrics() :: [Telemetry.Metrics.Summary.t(), ...]
   def metrics do
     [
       # Phoenix Metrics

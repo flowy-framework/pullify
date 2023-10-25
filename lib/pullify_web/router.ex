@@ -1,4 +1,8 @@
 defmodule PullifyWeb.Router do
+  @moduledoc """
+  The router plugs the browser pipeline and defines the routes.
+  """
+
   use PullifyWeb, :router
 
   pipeline :browser do
