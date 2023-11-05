@@ -70,7 +70,8 @@ defmodule Pullify.MixProject do
       {:mix_audit, "~> 2.0", only: [:dev, :test], runtime: false},
       {:doctor, "~> 0.21.0", only: :dev},
       # Docs
-      {:ex_doc, "~> 0.30", only: :dev, runtime: false}
+      {:ex_doc, "~> 0.30", only: :dev, runtime: false},
+      {:tentacat, "~> 2.0"}
     ]
   end
 
